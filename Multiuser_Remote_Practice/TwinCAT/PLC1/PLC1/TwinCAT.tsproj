@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <TcSmProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.beckhoff.com/schemas/2012/07/TcSmProject" TcSmVersion="1.0" TcVersion="3.1.4024.47">
-	<Project ProjectGUID="{5D28BABC-3976-4FE0-8B2A-704348C901C1}" MultiuserEnabled="true" MultiuserUrl="ads://5.62.134.228.1.1/Multiuser_Remote_Demo" TargetNetId="5.62.134.228.1.1" Target64Bit="true" ShowHideConfigurations="#x106">
+	<Project ProjectGUID="{5D28BABC-3976-4FE0-8B2A-704348C901C1}" Target64Bit="true" ShowHideConfigurations="#x106">
 		<System>
 			<Tasks>
 				<Task Id="3" Priority="20" CycleTime="100000" AmsPort="350" AdtTasks="true">
@@ -10,23 +10,15 @@
 		</System>
 		<Plc>
 			<Project GUID="{840C2B72-2E4F-41B9-A66D-14E0BC531A07}" Name="PLC1" PrjFilePath="PLC1\PLC1.plcproj" TmcFilePath="PLC1\PLC1.tmc" ReloadTmc="true" AmsPort="851" FileArchiveSettings="#x000e" SymbolicMapping="true">
-				<Instance Id="#x08502000" TcSmClass="TComPlcObjDef" KeepUnrestoredLinks="2" TmcHash="{8BEE040D-B0CC-7DC7-9107-6C99FEF16424}">
+				<Instance Id="#x08502000" TcSmClass="TComPlcObjDef" KeepUnrestoredLinks="2">
 					<Name>PLC1 Instance</Name>
 					<CLSID ClassFactory="TcPlc30">{08500001-0000-0000-F000-000000000064}</CLSID>
 					<Contexts>
 						<Context>
-							<Id>0</Id>
-							<Name>PlcTask</Name>
-							<ManualConfig>
-								<OTCID>#x02010030</OTCID>
-							</ManualConfig>
-							<Priority>20</Priority>
-							<CycleTime>10000000</CycleTime>
+							<Id>1</Id>
+							<Name>Default</Name>
 						</Context>
 					</Contexts>
-					<TaskPouOids>
-						<TaskPouOid Prio="20" OTCID="#x08502001"/>
-					</TaskPouOids>
 				</Instance>
 			</Project>
 		</Plc>

@@ -3,22 +3,19 @@
   <PropertyGroup>
     <FileVersion>1.0.0.0</FileVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{7772bfe9-8b92-4be8-91c1-741aab9dd66c}</ProjectGuid>
+    <ProjectGuid>{840c2b72-2e4f-41b9-a66d-14e0bc531a07}</ProjectGuid>
     <SubObjectsSortedByName>True</SubObjectsSortedByName>
     <DownloadApplicationInfo>true</DownloadApplicationInfo>
     <WriteProductVersion>true</WriteProductVersion>
     <GenerateTpy>false</GenerateTpy>
     <Name>PLC1</Name>
     <ProgramVersion>3.1.4024.0</ProgramVersion>
-    <Application>{4f13c3f3-1f70-444a-afe4-e88ddb83751c}</Application>
-    <TypeSystem>{87375c1c-4107-4092-a49e-f66a1a87c5ec}</TypeSystem>
-    <Implicit_Task_Info>{1e06324d-a617-44a4-827d-ffbf29b90675}</Implicit_Task_Info>
-    <Implicit_KindOfTask>{136c6fcd-9420-43d9-8a4c-7dc2a3f18381}</Implicit_KindOfTask>
-    <Implicit_Jitter_Distribution>{8d2fa7bd-29ec-4fa4-b8b0-9213c8b96963}</Implicit_Jitter_Distribution>
-    <LibraryReferences>{434c77bc-bed5-4686-8de0-ba3b065373da}</LibraryReferences>
-    <MultiuserUpdateParent>true</MultiuserUpdateParent>
-    <Released>false</Released>
-    <MultiuserUrl>ads://5.62.134.228.1.1/Multiuser_Remote_Demo</MultiuserUrl>
+    <Application>{3bc2bfba-1e35-4f73-99f3-6ec97edf8577}</Application>
+    <TypeSystem>{62f2a2d2-5a6a-4b06-bea8-f17a1a50ae84}</TypeSystem>
+    <Implicit_Task_Info>{3c1f9626-4a59-42e3-872b-d00085e24b99}</Implicit_Task_Info>
+    <Implicit_KindOfTask>{5767b64a-de83-4b3a-8e8b-2879566a6c3c}</Implicit_KindOfTask>
+    <Implicit_Jitter_Distribution>{519d66ba-d98d-456e-8a4c-143eae585ae0}</Implicit_Jitter_Distribution>
+    <LibraryReferences>{14a1a8c9-7315-458a-8b2a-58a5a0b042a0}</LibraryReferences>
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="PlcTask.TcTTO">
@@ -48,27 +45,22 @@
       <Namespace>Tc3_Module</Namespace>
     </PlaceholderReference>
   </ItemGroup>
-  <ItemGroup>
-    <None Include="PLC1.tmc">
-      <SubType>Content</SubType>
-    </None>
-  </ItemGroup>
   <ProjectExtensions>
     <PlcProjectOptions>
       <XmlArchive>
-        <Data>
-          <o xml:space="preserve" t="OptionKey">
+  <Data>
+    <o xml:space="preserve" t="OptionKey">
       <v n="Name">"&lt;ProjectRoot&gt;"</v>
       <d n="SubKeys" t="Hashtable" />
       <d n="Values" t="Hashtable" />
     </o>
-        </Data>
-        <TypeList>
-          <Type n="Hashtable">System.Collections.Hashtable</Type>
-          <Type n="OptionKey">{54dd0eac-a6d8-46f2-8c27-2f43c7e49861}</Type>
-          <Type n="String">System.String</Type>
-        </TypeList>
-      </XmlArchive>
+  </Data>
+  <TypeList>
+    <Type n="Hashtable">System.Collections.Hashtable</Type>
+    <Type n="OptionKey">{54dd0eac-a6d8-46f2-8c27-2f43c7e49861}</Type>
+    <Type n="String">System.String</Type>
+  </TypeList>
+</XmlArchive>
     </PlcProjectOptions>
   </ProjectExtensions>
 </Project>
