@@ -3,20 +3,17 @@
   <POU Name="MAIN" Id="{4b0696f6-af6c-46f9-8f33-29d4909b2e53}" SpecialFunc="None">
     <Declaration><![CDATA[PROGRAM MAIN
 VAR
-	nCounter  : INT;
+	nCounter : INT;
 	sText_PC1 : STRING;
-	sText_PC2 : STRING;
 END_VAR
 ]]></Declaration>
     <Implementation>
       <ST><![CDATA[nCounter := nCounter +1;
-sText_PC1 := CONCAT('Value PC1 = ', TO_STRING(nCounter));
-sText_PC2 := CONCAT(sText_PC1, ' and this is new text');]]></ST>
+sText_PC1 := CONCAT('Value = ', TO_STRING(nCounter));]]></ST>
     </Implementation>
     <LineIds Name="MAIN">
       <LineId Id="2" Count="0" />
       <LineId Id="8" Count="0" />
-      <LineId Id="15" Count="0" />
     </LineIds>
   </POU>
 </TcPlcObject>
